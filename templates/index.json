@@ -40,6 +40,89 @@
         "show_text_below": false
       }
     },
+    "3e6a45fd-568d-4920-9bfc-14b16cb25135": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20226122383702__3e6a45fd-568d-4920-9bfc-14b16cb25135-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Find din favorit<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20226122383702__3e6a45fd-568d-4920-9bfc-14b16cb25135-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Grøn te",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20226122383702__3e6a45fd-568d-4920-9bfc-14b16cb25135-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Sort te",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7131b7f8-aa6b-4d62-bfce-125997b0739a": {
+          "type": "column",
+          "settings": {
+            "title": "Hvid te",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f5b9f305-4f22-4496-8ff8-8efdb12a2c92": {
+          "type": "column",
+          "settings": {
+            "title": "Urte te",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "31d22511-825c-46b0-bd01-fce562157c21": {
+          "type": "column",
+          "settings": {
+            "title": "Koffeinfri te",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20226122383702__3e6a45fd-568d-4920-9bfc-14b16cb25135-column-1",
+        "template--20226122383702__3e6a45fd-568d-4920-9bfc-14b16cb25135-column-2",
+        "template--20226122383702__3e6a45fd-568d-4920-9bfc-14b16cb25135-column-3",
+        "7131b7f8-aa6b-4d62-bfce-125997b0739a",
+        "f5b9f305-4f22-4496-8ff8-8efdb12a2c92",
+        "31d22511-825c-46b0-bd01-fce562157c21"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -71,6 +154,7 @@
   },
   "order": [
     "image_banner",
+    "3e6a45fd-568d-4920-9bfc-14b16cb25135",
     "featured_collection"
   ]
 }
