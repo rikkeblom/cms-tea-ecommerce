@@ -194,7 +194,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio'] + label {
-  border: var(--variant-pills-border-width) solid rgba(var(--color-foreground), var(--variant-pills-border-opacity));
+  border: var(--variant-pills-border-width) solid var(--color-secondary-btn);
   background-color: rgb(var(--color-background));
   color: rgba(var(--color-foreground));
   border-radius: var(--variant-pills-radius);
@@ -229,7 +229,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio']:checked + label {
-  background-color: rgb(var(--color-foreground));
+  background-color: var(--color-secondary-btn);
   color: rgb(var(--color-background));
 }
 
@@ -1597,4 +1597,16 @@ a.product__text {
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
   }
+}
+.ATC_w_quantity_input{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.ATC_w_quantity_input form[method="post"]{
+  width: 100%;
+}
+.ATC_w_quantity_input .cart-quantity{
+  width: fit-content;
+  height: 47px;
 }
