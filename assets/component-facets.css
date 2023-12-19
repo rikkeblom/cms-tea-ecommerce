@@ -1105,6 +1105,8 @@ input.mobile-facets__checkbox {
 
   .facets-vertical .product-grid-container {
     width: 100%;
+    border-bottom: 1px solid #829B3A;
+    padding-bottom: 4rem;
   }
 
   .facets-vertical-form {
