@@ -23,6 +23,10 @@
   margin: 0 1rem 0 0;
 }
 
+.price .price-item > span{
+  font-size: 10px;
+}
+
 .price__regular .price-item--regular {
   margin-right: 0;
 }
