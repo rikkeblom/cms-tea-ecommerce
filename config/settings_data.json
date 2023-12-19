@@ -3,6 +3,7 @@
     "logo": "shopify:\/\/shop_images\/logo_white_text.png",
     "logo_width": 90,
     "favicon": "shopify:\/\/shop_images\/Group_161.png",
+    "secondary_btn_color": "#829b3a",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -29,7 +30,7 @@
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
-    "inputs_radius": 0,
+    "inputs_radius": 4,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
@@ -142,9 +143,9 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#1a1a1a",
-          "button": "#829b3a",
+          "button": "#f57e18",
           "button_label": "#ffffff",
-          "secondary_button_label": "#1a1a1a",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       },
@@ -189,6 +190,17 @@
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-b3c61cd3-b434-4d19-9961-22aed4d0ab99": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#1a1a1a",
+          "button": "#f57e18",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
