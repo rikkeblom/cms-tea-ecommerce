@@ -76,6 +76,17 @@
   justify-content: flex-end;
 }
 
+.sorting .facet-filters__field {
+  background: white;
+  padding: 0 1rem;
+  border-radius: 4px;
+}
+
+.facets-vertical-sort{
+  background: #C4DF53;
+  padding:  .5rem;
+}
+
 .facet-filters__field .select {
   width: auto;
 }
@@ -141,11 +152,11 @@
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
-.facet-filters__sort:focus-visible {
+/* .facet-filters__sort:focus-visible {
   outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   outline-offset: 1rem;
   box-shadow: 0 0 0 1rem rgb(var(--color-background)), 0 0 0.2rem 1.2rem rgba(var(--color-foreground), 0.3);
-}
+} */
 
 .facet-filters__sort.focused,
 .no-js .facet-filters__sort:focus {
@@ -197,6 +208,13 @@
 }
 
 .facets__summary {
+  font-family: Patrick Hand, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+
   color: rgba(var(--color-foreground), 0.75);
   font-size: 1.4rem;
   padding: 0 1.75rem 0 0;
@@ -405,7 +423,7 @@
   position: absolute;
   left: 0.3rem;
   z-index: 5;
-  top: 1.4rem;
+  top: 1.3rem;
 }
 
 .facet-checkbox > input[type='checkbox']:checked ~ .icon-checkmark {
@@ -1049,7 +1067,7 @@ input.mobile-facets__checkbox {
   }
 
   .facets__disclosure-vertical {
-    border-top: 0.1rem solid rgba(var(--color-foreground), 0.1);
+    border-top: 0.1rem solid #829B3A;
     margin-right: 0;
   }
 
