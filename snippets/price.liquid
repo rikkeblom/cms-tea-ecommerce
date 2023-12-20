@@ -7,6 +7,7 @@
   - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
   - price_class: {String} Adds a price class to the price element (optional)
   - show_compare_at_price: {Boolean} Renders the compare at price if the product matches the condition (optional)
+  - show_100g_price: {Boolean} Used for product previews on products with weight variants
 
   Usage:
   {% render 'price', product: product %}
@@ -32,7 +33,16 @@
     assign money_price_max = price_max | money_with_currency
   endif
 
-  if target == product and product.price_varies
+  if show_100g_price
+    for variant in product.variants 
+      if variant.title == "100g"
+        assign target = variant
+        assign price = target.price | default: 1999
+        assign money_price = price | money
+        assign money_price = 'products.product.price.100g_price_html' | t: price: money_price
+      endif
+    endfor
+  elsif target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
 -%}
@@ -79,7 +89,7 @@
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          {{ money_price }}
+          {{ money_price | html }}
         </span>
       {%- endif -%}
     </div>

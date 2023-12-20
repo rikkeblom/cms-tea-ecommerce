@@ -18,6 +18,10 @@
         assign gift_card_recipient_feature_active = true
       endif
 
+      if block.settings.show_quantity_selector
+        assign show_quantity_selector = true
+      endif
+
       assign show_dynamic_checkout = false
       if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
         assign show_dynamic_checkout = true
@@ -43,6 +47,11 @@
         </svg>
         <span class="product-form__error-message"></span>
       </div>
+      
+      {% if show_quantity_selector %}
+        <div class="ATC_w_quantity_input">
+        {% render 'quantity-input' variant: product.selected_or_first_available_variant %}
+      {% endif %}
 
       {%- form 'product',
         product,
@@ -51,6 +60,7 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
+
         <input
           type="hidden"
           name="id"
@@ -97,8 +107,13 @@
             {{ form | payment_button }}
           {%- endif -%}
         </div>
+
       {%- endform -%}
     </product-form>
+    
+    {% if show_quantity_selector %}
+      </div>
+    {% endif %}
   {%- else -%}
     <div class="product-form">
       <div class="product-form__buttons form">
