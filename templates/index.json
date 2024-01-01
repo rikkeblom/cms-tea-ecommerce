@@ -58,7 +58,7 @@
             "title": "Grøn te",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/gron-te"
           }
         },
         "template--20226122383702__3e6a45fd-568d-4920-9bfc-14b16cb25135-column-3": {
@@ -67,7 +67,7 @@
             "title": "Sort te",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/sort-te"
           }
         },
         "7131b7f8-aa6b-4d62-bfce-125997b0739a": {
@@ -76,7 +76,7 @@
             "title": "Hvid te",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/hvid-te"
           }
         },
         "f5b9f305-4f22-4496-8ff8-8efdb12a2c92": {
@@ -85,16 +85,16 @@
             "title": "Urte te",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/urte-te"
           }
         },
         "31d22511-825c-46b0-bd01-fce562157c21": {
           "type": "column",
           "settings": {
-            "title": "Koffeinfri te",
+            "title": "Rooibos te",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/rooibos"
           }
         }
       },
