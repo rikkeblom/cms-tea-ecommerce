@@ -14,10 +14,12 @@
         "title": {
           "type": "title",
           "settings": {
+            "show_price_inline_w_title": true
           }
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
